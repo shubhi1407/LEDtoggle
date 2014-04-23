@@ -22,7 +22,7 @@ STRIP=strippru
 # -ppa				Continue after generating deps
 # -DDEBUG			Enable debug
 # CFLAGS= -v3 --c99 --gcc -O3 --printf_support=minimal -ppd -ppa -DDEBUG 
-CFLAGS= -v3 -s -al --include_path="/home/vaibhav/pru_2.0.0B2/include"  --include_path="/home/vaibhav/pru-software/pru-software-support-package/include" --include_path="/home/vaibhav/pru-software/pru-software-support-package/lib" -O3 --c99 --gcc --printf_support=minimal --symdebug:none
+CFLAGS= -v3 -s -al -O3 --c99 --gcc --printf_support=minimal --symdebug:none
 
 # Linker Options
 # -cr 				Link using RAM auto init model (loader assisted)
